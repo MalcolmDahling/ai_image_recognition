@@ -1,0 +1,32 @@
+{
+  "name": "ai_image_recognition",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@svgr/webpack": "^8.1.0",
+    "@tensorflow/tfjs": "^4.14.0",
+    "@tensorflow/tfjs-backend-webgl": "^4.14.0",
+    "@tensorflow/tfjs-backend-webgpu": "^4.14.0",
+    "@vanilla-extract/css": "^1.14.0",
+    "@vanilla-extract/recipes": "^0.5.1",
+    "@vanilla-extract/sprinkles": "^1.6.1",
+    "axios": "^1.6.2",
+    "brain.js": "^2.0.0-beta.23",
+    "next": "14.0.4",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@vanilla-extract/next-plugin": "^2.3.2",
+    "typescript": "^5"
+  }
+}
